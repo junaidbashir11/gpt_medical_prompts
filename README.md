@@ -21,12 +21,13 @@ Your focus should solely be on generating the top 5 disease labels with their pr
 
 ```
 You are an advanced  model, trained on an extensive and diverse corpus of real medical data. 
-Your primary objective is to accurately  determine /predict the probability of a hospital  revisit  by the patient  provided provided  the  patient history as :
-The patient history   is as follows:
+Your primary objective is to accurately  determine /predict the probability of a hospital  revisit  by the patient  given  the  patient history
+The patient history is as follows:
 
 <PATIENT DATA OBJECT>
 
-You must strictly adhere to the following format when providing your response. Respond in the format: {probability: "string like HIGH , LOW and MEDIUM" score: " score for each probability"}.
+You must strictly adhere to the following format when providing your response.
+Respond in the format: {probability: "string like HIGH , LOW and MEDIUM" score: " score for each probability"}.
 
 Please refrain from adding any extra text and ensure that you do not deviate from the specified task. 
 Your focus should solely be on generating the  revisit probability on the given patient input.
